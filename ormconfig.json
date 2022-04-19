@@ -1,0 +1,14 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "F]GE6>Jb",
+    "database": "test-nest",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "migrations": ["dist/migration/*.js"],
+    "cli": {
+        "migrationsDir": "migration"
+    },
+    "synchronize": false
+  }
